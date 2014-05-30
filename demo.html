@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <title>CSS 2 JSON Demo</title>
+  <script type="text/javascript" src="css2json.js"></script>
+</head>
+<body>
+  <div id="inlineCSSEl" style="border: 2px solid black;font-size: 14px;height: 15px;">Hello World!</div>
+  <div id="result"></div>
+
+  <script type="text/javascript">
+    var el = document.getElementById("inlineCSSEl")
+    var cssJson = css2json(el)
+    document.getElementById("result").innerHTML = "Results: "+JSON.stringify(cssJson)
+  </script>
+</body>
+</html>
