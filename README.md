@@ -5,7 +5,7 @@
 ## Usage
 1. Download css2json.js
 2. Next include it in your html `<script type="text/javascript" src="css2json.js"></script>`
-3. Now simply call `css2json()` in your javascript but make sure to pass an element ass the argument.
+3. Now simply call `css2json()` in your javascript but make sure to pass an element as the argument.
 
 ## Example
 ```html
